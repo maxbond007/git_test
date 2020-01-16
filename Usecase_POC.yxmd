@@ -1,0 +1,2823 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.3">
+  <Nodes>
+    <Node ToolID="173">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="1446" y="1434" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="sheetname" />
+          </Fields>
+          <Data>
+            <r>
+              <c>test_bill</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="170">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="54.0002" width="152" height="860.9998" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Inputs</Caption>
+          <Style TextColor="#314c4a" FillColor="#fff2cc" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79.0002" y="103.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\maxim\Downloads\Usecase_POC\PIV_BR1.xlsx|||`List1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>PIV_BR1.xlsx
+Table=`List1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="By Segment" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\PIV_BR1.xlsx|||`List1$`" type="V_String" />
+                <Field name="(Alle)" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\PIV_BR1.xlsx|||`List1$`" type="V_String" />
+                <Field name="F3" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\PIV_BR1.xlsx|||`List1$`" type="V_String" />
+                <Field name="F4" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\PIV_BR1.xlsx|||`List1$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79.00019" y="223.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>ABI-Inception.xlsx
+Table=`List1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="File Name" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="V_String" />
+                <Field name="Received" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" />
+                <Field name="Rejected ABI" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" />
+                <Field name="Errored ABI" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" />
+                <Field name="53 E" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" />
+                <Field name="Published" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" />
+                <Field name="RAR &#xA;posted" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" />
+                <Field name="RAR &#xA;Error" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" />
+                <Field name="RAR/ABI Reconciliation Delta" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" />
+                <Field name="ID" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" />
+                <Field name="File Found" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="V_String" />
+                <Field name="Check" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" />
+                <Field name="Segment" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="V_String" />
+                <Field name="File ID" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="V_String" />
+                <Field name="event&#xA;INC" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="V_String" />
+                <Field name="File ID&#xA;INC" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="V_String" />
+                <Field name="RAR posted&#xA;INC" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" />
+                <Field name="RAR Error&#xA;INC" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" />
+                <Field name="event&#xA;IR" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="V_String" />
+                <Field name="File ID&#xA;IR" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="V_String" />
+                <Field name="RAR posted&#xA;IR" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" />
+                <Field name="RAR Error&#xA;IR" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" />
+                <Field name="INC" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" />
+                <Field name="INCR" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" />
+                <Field name="F25" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" />
+                <Field name="F26" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79.00019" y="331.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>ABI-AddGoods.xlsx
+Table=`List1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="File Name" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="V_String" />
+                <Field name="Received" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="Double" />
+                <Field name="Rejected ABI" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="Double" />
+                <Field name="Errored ABI" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="Double" />
+                <Field name="53 E" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="Double" />
+                <Field name="Published" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="Double" />
+                <Field name="RAR &#xA;posted" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="Double" />
+                <Field name="RAR &#xA;Error" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="Double" />
+                <Field name="RAR/ABI Reconciliation Delta" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="Double" />
+                <Field name="ID" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="Double" />
+                <Field name="File Found" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="V_String" />
+                <Field name="Check" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="Double" />
+                <Field name="Segment" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="V_String" />
+                <Field name="File ID" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="V_String" />
+                <Field name="event&#xA;AG" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="V_String" />
+                <Field name="File ID&#xA;AG" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="V_String" />
+                <Field name="RAR posted&#xA;AG" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="Double" />
+                <Field name="RAR Error&#xA;AG" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="Double" />
+                <Field name="event&#xA;AGR" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="V_String" />
+                <Field name="File ID&#xA;AGR" size="255" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="V_String" />
+                <Field name="RAR posted&#xA;AGR" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="Double" />
+                <Field name="RAR Error&#xA;AGR" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="Double" />
+                <Field name="AG" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="Double" />
+                <Field name="AGR" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="Double" />
+                <Field name="F25" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79.00031" y="439.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>ABI-BillRun.xlsx
+Table=`List1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="File Name" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="V_String" />
+                <Field name="Received" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="Double" />
+                <Field name="Rejected ABI" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="Double" />
+                <Field name="Errored ABI" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="Double" />
+                <Field name="53 E" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="Double" />
+                <Field name="Published" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="Double" />
+                <Field name="RAR &#xA;posted" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="Double" />
+                <Field name="RAR &#xA;Error" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="Double" />
+                <Field name="RAR/ABI Reconciliation Delta" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="Double" />
+                <Field name="ID" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="Double" />
+                <Field name="File Found" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="V_String" />
+                <Field name="Check" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="Double" />
+                <Field name="Segment" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="V_String" />
+                <Field name="File ID" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="V_String" />
+                <Field name="event&#xA;BR" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="V_String" />
+                <Field name="File ID&#xA;BR" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="V_String" />
+                <Field name="RAR posted&#xA;BR" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="Double" />
+                <Field name="RAR Error&#xA;BR" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="Double" />
+                <Field name="F19" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="Double" />
+                <Field name="F20" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79.00031" y="535.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>FIWA_MTD.xlsx
+Table=`List1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="F1" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="F2" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="F3" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="Double" />
+                <Field name="F4" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="Double" />
+                <Field name="F5" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="Double" />
+                <Field name="F6" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="F7" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="Double" />
+                <Field name="F8" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="Double" />
+                <Field name="F9" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="FI Document Workaround Report (New)" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="F11" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="F12" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="F13" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="F14" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="F15" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="F16" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="F17" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="F18" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="F19" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="F20" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="F21" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79.0001" y="679.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>RAR Errors MTD.xlsx
+Table=`RAR Errors MTD$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="F1" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="V_String" />
+                <Field name="F2" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="V_String" />
+                <Field name="F3" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="Double" />
+                <Field name="F4" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="Double" />
+                <Field name="F5" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="Double" />
+                <Field name="F6" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="V_String" />
+                <Field name="F7" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="Double" />
+                <Field name="F8" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="Double" />
+                <Field name="F9" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="V_String" />
+                <Field name="F10" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="V_String" />
+                <Field name="F11" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="V_String" />
+                <Field name="F12" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="V_String" />
+                <Field name="F13" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="V_String" />
+                <Field name="F14" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79.00004" y="799.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>BR1 Analysis.xlsx
+Table=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Local market" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="DE" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="T. Version 4.05" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="43710.467997685184" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="F5" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="43740.125462962962" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="F7" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="F8" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="F9" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="F10" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="F11" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="F12" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="F13" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="F14" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="F15" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="167">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="282" y="54" width="301.0002" height="1117" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Preprocessing</Caption>
+          <Style TextColor="#314c4a" FillColor="#ddebf7" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="307.0002" y="103.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Skip</Mode>
+              <N>1</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Skip 1st 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings>
+            <Position x="367.0002" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">16</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="439.0002" y="103.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="(Alle)" selected="True" rename="Total Billings Tracker Information from LM" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings>
+            <Position x="307.0003" y="223.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">309</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="367.0002" y="223.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="File Name" selected="False" />
+                <SelectField field="Received" selected="False" />
+                <SelectField field="Rejected ABI" selected="True" />
+                <SelectField field="Errored ABI" selected="True" />
+                <SelectField field="53 E" selected="False" />
+                <SelectField field="Published" selected="False" />
+                <SelectField field="RAR &#xA;posted" selected="False" />
+                <SelectField field="RAR &#xA;Error" selected="False" />
+                <SelectField field="RAR/ABI Reconciliation Delta" selected="False" />
+                <SelectField field="ID" selected="False" />
+                <SelectField field="File Found" selected="False" />
+                <SelectField field="Check" selected="False" />
+                <SelectField field="Segment" selected="False" />
+                <SelectField field="File ID" selected="False" />
+                <SelectField field="event&#xA;INC" selected="False" />
+                <SelectField field="File ID&#xA;INC" selected="False" />
+                <SelectField field="RAR posted&#xA;INC" selected="False" />
+                <SelectField field="RAR Error&#xA;INC" selected="False" />
+                <SelectField field="event&#xA;IR" selected="False" />
+                <SelectField field="File ID&#xA;IR" selected="False" />
+                <SelectField field="RAR posted&#xA;IR" selected="False" />
+                <SelectField field="RAR Error&#xA;IR" selected="False" />
+                <SelectField field="INC" selected="False" />
+                <SelectField field="INCR" selected="False" />
+                <SelectField field="F25" selected="False" />
+                <SelectField field="F26" selected="False" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings>
+            <Position x="307.0002" y="331.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">594</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="367.0002" y="331.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Rejected ABI" selected="True" />
+                <SelectField field="Errored ABI" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings>
+            <Position x="307.0002" y="439.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">1371</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="367.0002" y="439.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Rejected ABI" selected="True" />
+                <SelectField field="Errored ABI" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="307.0002" y="535.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Skip</Mode>
+              <N>14</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Skip 1st 14</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+            <Position x="367.0002" y="547.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <RenameMode>FirstRow</RenameMode>
+              <Fields orderChanged="False">
+                <Field name="F1" />
+                <Field name="F2" />
+                <Field name="F3" />
+                <Field name="F4" />
+                <Field name="F5" />
+                <Field name="F6" />
+                <Field name="F7" />
+                <Field name="F8" />
+                <Field name="F9" />
+                <Field name="FI Document Workaround Report (New)" />
+                <Field name="F11" />
+                <Field name="F12" />
+                <Field name="F13" />
+                <Field name="F14" />
+                <Field name="F15" />
+                <Field name="F16" />
+                <Field name="F17" />
+                <Field name="F18" />
+                <Field name="F19" />
+                <Field name="F20" />
+                <Field name="F21" />
+                <Field name="*Unknown" />
+              </Fields>
+              <Expression />
+              <FirstRow>
+                <OnError>Warn</OnError>
+              </FirstRow>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Company Code" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="Vodafone GmbH" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="Field_22" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="Double" />
+                <Field name="Field_22_2" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="Double" />
+                <Field name="Field_22_3" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="Double" />
+                <Field name="Field_22_4" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="Field_22_5" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="Double" />
+                <Field name="Field_22_6" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="Double" />
+                <Field name="G/L Account" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="POB Type" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="Fiscal Year Period" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="Amount in LC" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="IFRS15 Revenue in LC" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="Contract Asset in LC" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="Contract Liability in LC" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="Receivable Adjustment in LC" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="Invoice Amount in LC" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="Exchange Difference in LC" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="IFRS15 Costs in LC" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="Cost Correction in LC" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+                <Field name="Deferred Costs in LC" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\FIWA_MTD.xlsx|||`List1$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="439.0002" y="547.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="G/L Account" selected="True" />
+                <SelectField field="POB Type" selected="True" />
+                <SelectField field="Fiscal Year Period" selected="True" />
+                <SelectField field="Amount in LC" selected="True" />
+                <SelectField field="IFRS15 Revenue in LC" selected="True" />
+                <SelectField field="Contract Asset in LC" selected="True" />
+                <SelectField field="Contract Liability in LC" selected="True" />
+                <SelectField field="Receivable Adjustment in LC" selected="True" />
+                <SelectField field="Invoice Amount in LC" selected="True" type="Double" size="8" />
+                <SelectField field="Exchange Difference in LC" selected="True" />
+                <SelectField field="IFRS15 Costs in LC" selected="True" />
+                <SelectField field="Cost Correction in LC" selected="True" />
+                <SelectField field="Deferred Costs in LC" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="307.0003" y="679.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Skip</Mode>
+              <N>17</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Skip 1st 17</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+            <Position x="367.0002" y="691.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <RenameMode>FirstRow</RenameMode>
+              <Fields orderChanged="False">
+                <Field name="F1" />
+                <Field name="F2" />
+                <Field name="F3" />
+                <Field name="F4" />
+                <Field name="F5" />
+                <Field name="F6" />
+                <Field name="F7" />
+                <Field name="F8" />
+                <Field name="F9" />
+                <Field name="F10" />
+                <Field name="F11" />
+                <Field name="F12" />
+                <Field name="F13" />
+                <Field name="F14" />
+                <Field name="*Unknown" />
+              </Fields>
+              <Expression />
+              <FirstRow>
+                <OnError>Warn</OnError>
+              </FirstRow>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Company Code" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="V_String" />
+                <Field name="DE04" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="V_String" />
+                <Field name="Field_15" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="Double" />
+                <Field name="Field_15_2" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="Double" />
+                <Field name="Field_15_3" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="Double" />
+                <Field name="Field_15_4" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="V_String" />
+                <Field name="Field_15_5" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="Double" />
+                <Field name="Field_15_6" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="Double" />
+                <Field name="Source Doc Type" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="V_String" />
+                <Field name="Error ID" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="V_String" />
+                <Field name="Fiscal Year Period" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="V_String" />
+                <Field name="Contract Event" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="V_String" />
+                <Field name="File Sequence Number" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="V_String" />
+                <Field name="Amount in TC" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\RAR Errors MTD.xlsx|||`RAR Errors MTD$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="439.0002" y="691.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Source Doc Type" selected="True" />
+                <SelectField field="Error ID" selected="True" />
+                <SelectField field="Fiscal Year Period" selected="True" />
+                <SelectField field="Contract Event" selected="True" />
+                <SelectField field="File Sequence Number" selected="True" />
+                <SelectField field="Amount in TC" selected="True" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="499.0002" y="691.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Contract Event] != "007"  and [Contract Event] != "999" and [Source Doc Type] != "VOLI" and [Source Doc Type] != "VOPI"</Expression>
+              <Mode>Custom</Mode>
+              <Simple>
+                <Operator>!=</Operator>
+                <Field>Contract Event</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2019-12-09 16:29:32</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>007</Operand>
+                  <StartDate>2019-12-09 16:29:32</StartDate>
+                  <EndDate>2019-12-09 16:29:32</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>[Contract Event] != "007"  and [Contract Event] != "999" and [Source Doc Type] !...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="307.0003" y="799.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Skip</Mode>
+              <N>1</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Skip 1st 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+            <Position x="367.0002" y="811.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <RenameMode>FirstRow</RenameMode>
+              <Fields orderChanged="False">
+                <Field name="Local market" />
+                <Field name="DE" />
+                <Field name="T. Version 4.05" />
+                <Field name="43710.467997685184" />
+                <Field name="F5" />
+                <Field name="43740.125462962962" />
+                <Field name="F7" />
+                <Field name="F8" />
+                <Field name="F9" />
+                <Field name="F10" />
+                <Field name="F11" />
+                <Field name="F12" />
+                <Field name="F13" />
+                <Field name="F14" />
+                <Field name="F15" />
+                <Field name="*Unknown" />
+              </Fields>
+              <Expression />
+              <FirstRow>
+                <OnError>Warn</OnError>
+              </FirstRow>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="September" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Event" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="RX this month&#xA;and NOT posted &#xA;(FUTURE)&#xA;CM:SEP&#xA;PD:FUT" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Files RX and processed this month (current and previous period posting reference)" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Old Errors ( files received in the past) &#xA;for previous posting period reference.&#xA;(PREV Unblocked related to prev month) &#xA;61" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Old Errors ( files received in the past) &#xA;for current posting period reference.&#xA;(PREV Unblocked related to this month) &#xA;61" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Total Posted" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Field_16" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Event2" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="RAI error &#xA;(Report 39)" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Idocs Error&#xA;53 E" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="RAR/ABI Reconciliation Delta" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Field_16_2" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Event3" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Total" size="255" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings>
+            <Position x="439.0002" y="943.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges"><![CDATA[20
+
+]]></Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="499.0002" y="943.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Old Errors ( files received in the past) &#xA;for previous posting period reference.&#xA;(PREV Unblocked related to prev month) &#xA;61" selected="True" type="Double" size="8" />
+                <SelectField field="RAI error &#xA;(Report 39)" selected="True" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="57">
+          <GuiSettings>
+            <Position x="439.0002" y="1015" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">18</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="58">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="499.0002" y="1015" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="RAI error &#xA;(Report 39)" selected="True" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="61">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="499.0002" y="595.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Last</Mode>
+              <N>14</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Last 14</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="66">
+          <GuiSettings>
+            <Position x="439.0002" y="811.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">17</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="67">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="499.0002" y="811.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Total Posted" selected="True" rename="Last Invoice Functionality- IC items (VOLI) which are part of FI Doc WA report-Based input provided VSSI technical Report" type="Double" size="8" />
+                <SelectField field="RAI error &#xA;(Report 39)" selected="False" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="70">
+          <GuiSettings>
+            <Position x="439.0002" y="1087" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges">20</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="71">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="499.0002" y="1087" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Total Posted" selected="False" type="Double" size="8" />
+                <SelectField field="RAI error &#xA;(Report 39)" selected="False" type="Double" size="8" />
+                <SelectField field="Idocs Error&#xA;53 E" selected="True" rename="RAR errored from RAR 04 report" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="76">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="439.0002" y="331.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <AutoResetMode>ByName</AutoResetMode>
+              <MultiMetaInfo>
+                <MetaInfo name="#1">
+                  <RecordInfo>
+                    <Field name="Rejected ABI" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" column="1" />
+                    <Field name="Errored ABI" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-Inception.xlsx|||`List1$`" type="Double" column="2" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo name="#2">
+                  <RecordInfo>
+                    <Field name="Rejected ABI" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="Double" column="1" />
+                    <Field name="Errored ABI" source="File: C:\Users\maxim\Downloads\Usecase_POC\ABI-AddGoods.xlsx|||`List1$`" type="Double" column="2" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo name="#3">
+                  <RecordInfo>
+                    <Field name="Rejected ABI" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="Double" column="1" />
+                    <Field name="Errored ABI" source="File: C:\Users\maxim\Downloads\\Usecase_POC\ABI-BillRun.xlsx|||`List1$`" type="Double" column="2" />
+                  </RecordInfo>
+                </MetaInfo>
+              </MultiMetaInfo>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ManualDelayed</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="95">
+          <GuiSettings>
+            <Position x="439.0002" y="871.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Ranges"><![CDATA[9
+]]></Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="SelectRecords.yxmc" />
+        </Node>
+        <Node ToolID="96">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="499.0002" y="871.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Old Errors ( files received in the past) &#xA;for previous posting period reference.&#xA;(PREV Unblocked related to prev month) &#xA;61" selected="True" type="Double" size="8" />
+                <SelectField field="RAI error &#xA;(Report 39)" selected="True" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="168">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="715.0002" y="199.0001" width="864.9998" height="841" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Calculation</Caption>
+          <Style TextColor="#314c4a" FillColor="#e2efda" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="836.0002" y="536.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Invoice Amount in LC" action="Sum" rename="FI WA Report from RAR" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="836.0002" y="668.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Amount in TC" action="Sum" rename="RAR Error Report " />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="63">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="836.0002" y="608.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Invoice Amount in LC" action="Sum" rename="Balance in FIWA in technical GL account 69310614 " />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="75">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="740.0002" y="320.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Rejected ABI" action="Sum" rename="Rejects sent back to LM" />
+                <SummarizeField field="Errored ABI" action="Sum" rename="Error/Stuck at Ab Initio for re-run Errored" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="79">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="824.0002" y="392.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Rejects sent back to LM] + [Error/Stuck at Ab Initio for re-run Errored]" field="Total" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>Total = [Rejects sent back to LM] + [Error/Stuck at Ab Initio for re-run Errored...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="82">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="944.0002" y="584.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByPos</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="84">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1016" y="584.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="FI WA Report from RAR" action="Sum" rename="Total" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="87">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="896.0002" y="392.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Total" selected="True" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="91">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1148" y="392.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Total Billings Tracker Information from LM] - [Total] - [Report_Total]" field="Unexplained Difference" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>Unexplained Difference = [Total Billings Tracker Information from LM] - [Total] ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="92">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="1004" y="380.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Target_Total Billings Tracker Information from LM" selected="True" input="Target_" />
+                    <SelectField field="Source_Total" selected="True" input="Source_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="93">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="1076" y="392.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Target_Total Billings Tracker Information from LM" selected="True" input="Target_" />
+                    <SelectField field="Target_Total" selected="True" input="Target_" />
+                    <SelectField field="Source_Total" selected="True" rename="Report_Total" input="Source_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="97">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="836.0002" y="836.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Source_Old Errors ( files received in the past) &#xA;for previous posting period reference.&#xA;(PREV Unblocked related to prev month) &#xA;61" selected="True" rename="F23_Old Errors ( files received in the past) &#xA;for previous posting period reference.&#xA;(PREV Unblocked related to prev month) &#xA;61" input="Source_" />
+                    <SelectField field="Source_RAI error &#xA;(Report 39)" selected="False" input="Source_" />
+                    <SelectField field="Target_Old Errors ( files received in the past) &#xA;for previous posting period reference.&#xA;(PREV Unblocked related to prev month) &#xA;61" selected="True" rename="F12_Old Errors ( files received in the past) &#xA;for previous posting period reference.&#xA;(PREV Unblocked related to prev month) &#xA;61" input="Target_" />
+                    <SelectField field="Target_RAI error &#xA;(Report 39)" selected="False" input="Target_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="98">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="932.0002" y="836.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[F23_Old Errors ( files received in the past) &#xA;for previous posting period reference.&#xA;(PREV Unblocked related to prev month) &#xA;61] - [F12_Old Errors ( files received in the past) &#xA;for previous posting period reference.&#xA;(PREV Unblocked related to prev month) &#xA;61]" field="RAR error for previous month processed in current month " size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>RAR error for previous month processed in current month  = [F23_Old Errors ( fil...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="100">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="836.0002" y="908.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Target_RAI error &#xA;(Report 39)" selected="True" rename="K12_RAI error &#xA;(Report 39)" input="Target_" />
+                    <SelectField field="Source_RAI error &#xA;(Report 39)" selected="True" rename="K21_RAI error &#xA;(Report 39)" input="Source_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="101">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="932.0002" y="896.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Target_RAI error &#xA;(Report 39)" selected="True" rename="K23_RAI error &#xA;(Report 39)" input="Target_" />
+                    <SelectField field="Source_K12_RAI error &#xA;(Report 39)" selected="True" input="Source_" />
+                    <SelectField field="Source_K21_RAI error &#xA;(Report 39)" selected="True" input="Source_" />
+                    <SelectField field="Source_RAI error &#xA;(Report 39)" selected="False" rename="Source_RAI error &#xA;(Report 39)" input="Source_" />
+                    <SelectField field="Source_Source_RAI error &#xA;(Report 39)" selected="False" rename="Source_Source_RAI error &#xA;(Report 39)" input="Source_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="102">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="1028" y="896.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="103">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1100" y="896.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[RAR Error Report ] - ([K23_RAI error &#xA;(Report 39)] - [K12_RAI error &#xA;(Report 39)] - [K21_RAI error &#xA;(Report 39)])" field="RAR error related to files prior period sent in current period" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>RAR error related to files prior period sent in current period = [RAR Error Repo...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="109">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1436" y="788.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <AutoResetMode>ByPos</AutoResetMode>
+              <MultiMetaInfo>
+                <MetaInfo name="#4">
+                  <RecordInfo>
+                    <Field name="Last Invoice Functionality- IC items (VOLI) which are part of FI Doc WA report-Based input provided VSSI technical Report" source="File: C:\Users\maxim\Downloads\\Usecase_POC\BR1 Analysis.xlsx|||`Sheet1$`" type="Double" column="1" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo name="#3">
+                  <RecordInfo>
+                    <Field name="Balance in FIWA in technical GL account 69310614 " source="Summarize: Sum - Invoice Amount in LC" type="Double" column="1" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo name="#6">
+                  <RecordInfo>
+                    <Field name="Unexplained Difference" source="Formula: [Total Billings Tracker Information from LM] - [Total] - [Report_Total]" type="Double" column="1" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo name="#1">
+                  <RecordInfo>
+                    <Field name="RAR error for previous month processed in current month " source="Formula: [F23_Old Errors ( files received in the past) &#xA;for previous posting period reference.&#xA;(PREV Unblocked related to prev month) &#xA;61] - [F12_Old Errors ( files received in the past) &#xA;for previous posting period reference.&#xA;(PREV Unblocked related to prev month) &#xA;61]" type="Double" column="1" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo name="#2">
+                  <RecordInfo>
+                    <Field name="RAR error related to files prior period sent in current period" source="Formula: [RAR Error Report ] - ([K23_RAI error &#xA;(Report 39)] - [K12_RAI error &#xA;(Report 39)] - [K21_RAI error &#xA;(Report 39)])" type="Double" column="1" />
+                  </RecordInfo>
+                </MetaInfo>
+              </MultiMetaInfo>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ManualDelayed</Mode>
+              <SetOutputOrder value="True" />
+              <OutputOrder>
+                <Connection>#6</Connection>
+                <Connection>#1</Connection>
+                <Connection>#2</Connection>
+                <Connection>#3</Connection>
+                <Connection>#4</Connection>
+              </OutputOrder>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="110">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1220" y="392.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Unexplained Difference" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="111">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1028" y="836.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="RAR error for previous month processed in current month " selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="112">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1172" y="896.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="RAR error related to files prior period sent in current period" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="113">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="1136" y="956.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="Ab-initio rejects not captured in ab-initio report" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>0</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="117">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1436" y="596.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[First_calc ] - [RAR errored from RAR 04 report] - [Ab-initio rejects not captured in ab-initio report]" field="Final Unexplained Difference" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>Final Unexplained Difference = [First_calc ] - [RAR errored from RAR 04 report] ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="118">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1436" y="740.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="RAR error for previous month processed in current month " action="Sum" rename="First_calc " />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="119">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="1436" y="692.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Target_First_calc " selected="True" input="Target_" />
+                    <SelectField field="Source_RAR errored from RAR 04 report" selected="True" input="Source_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="120">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="1436" y="644.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Target_First_calc " selected="True" input="Target_" />
+                    <SelectField field="Target_RAR errored from RAR 04 report" selected="True" input="Target_" />
+                    <SelectField field="Source_Ab-initio rejects not captured in ab-initio report" selected="True" input="Source_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="122">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1496" y="344.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Round(([Final Unexplained Difference]/[Total Billings Tracker Information from LM]) * 100, .01)" field="Unexplained Difference (%)" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText>Unexplained Difference (%) = Round(([Final Unexplained Difference]/[Total Billin...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="123">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1436" y="548.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Final Unexplained Difference" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="124">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="1496" y="296.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Target_Total Billings Tracker Information from LM" selected="True" input="Target_" />
+                    <SelectField field="Source_Final Unexplained Difference" selected="True" input="Source_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="126">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1496" y="440.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Unexplained Difference (%)" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="127">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1496" y="392.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Unexplained Difference (%)] + '%'" field="Unexplained Difference (%)" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="2">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Unexplained Difference (%) = [Unexplained Difference (%)] + '%'
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="129">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="824.0002" y="248.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Rejects sent back to LM" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="131">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="824.0002" y="320.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Error/Stuck at Ab Initio for re-run Errored" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="169">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1973" y="1181" width="445" height="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Output</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffd8b0" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="150">
+          <GuiSettings Plugin="PortfolioPluginsGui.ComposerTable.PortfolioComposerTable">
+            <Position x="2178" y="1326" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TableMode>Basic</TableMode>
+              <GroupingFields orderChanged="False">
+                <Field name="sheetname" />
+              </GroupingFields>
+              <Width>100%</Width>
+              <ShowHeader value="True" />
+              <ShowBarGraph value="False" />
+              <TableFields orderChanged="False">
+                <Field name="Total Billings Tracker Information from LM" selected="True" Alignment="Center" Width="" Places="2" Borders="Both" />
+                <Field name="Rejects sent back to LM" selected="True" Alignment="Center" Places="2" Borders="Both" />
+                <Field name="Error/Stuck at Ab Initio for re-run Errored" selected="True" Alignment="Center" Places="2" Borders="Both" />
+                <Field name="Total" selected="True" Alignment="Center" Width="" Places="2" Borders="Both" />
+                <Field name="FI WA Report from RAR" selected="True" Alignment="Center" Width="" Places="2" Borders="Both" />
+                <Field name="RAR Error Report " selected="True" Alignment="Center" Places="2" Borders="Both" />
+                <Field name="Input_#7_Total" selected="True" Alignment="Center" Alias="Total" Borders="Both" Places="2" Width="" />
+                <Field name="Unexplained Difference" selected="True" Alignment="Center" Places="2" Borders="Both" />
+                <Field name="RAR error for previous month processed in current month " selected="True" Alignment="Center" Places="2" Borders="Both" />
+                <Field name="RAR error related to files prior period sent in current period" selected="True" Alignment="Center" Places="2" Borders="Both" />
+                <Field name="Balance in FIWA in technical GL account 69310614 " selected="True" Alignment="Center" Places="2" Borders="Both" />
+                <Field name="Last Invoice Functionality- IC items (VOLI) which are part of FI Doc WA report-Based input provided VSSI technical Report" selected="True" Alignment="Center" Places="2" Borders="Both" />
+                <Field name="RAR errored from RAR 04 report" selected="True" Alignment="Center" Places="2" Borders="Both" Width="" />
+                <Field name="Ab-initio rejects not captured in ab-initio report" selected="True" Alignment="Center" Places="2" Borders="Both" />
+                <Field name="Final Unexplained Difference" selected="True" Alignment="Center" Places="2" Borders="Both" />
+                <Field name="Unexplained Difference (%)" selected="True" Alignment="Center" Width="" Borders="Both" />
+                <Field name="sheetname" selected="True" Alignment="Left" Width="" />
+                <Field name="*Unknown" selected="False" />
+              </TableFields>
+              <TableStyles>
+                <Style Name="Data" Font="B-Times New Roman" Size="11" TextColor="#000000" BackColor="#ffffff" AltColor="#f0f0f0" RowGroup="1" />
+                <Style Name="Header" Font="B-Times New Roman" Size="11" TextColor="#000000" BackColor="#dbdbdb" />
+                <Style Name="Borders" Width="1" DataColor="#000000" HeaderColor="#000000" RowBorder="Per Group" BasicColBorder="Default (Use Per Column Setting)" />
+                <Style Name="Table" CellPadding="0" ColumnPadding="0" TableBorder="true" Width="1" BorderColor="#000000" />
+              </TableStyles>
+              <StyleRules>
+                <Rule Name="9d31a376-dab1-4ebd-a5d1-805c7c86dc92">
+                  <RowRule value="False" />
+                  <HighPrecedence value="False" />
+                  <Field>Total Billings Tracker Information from LM</Field>
+                  <Test>Always</Test>
+                  <ApplyTo>Header</ApplyTo>
+                  <SimpleVar />
+                  <SimpleOp>==</SimpleOp>
+                  <SimpleConst>1</SimpleConst>
+                  <Formula>1</Formula>
+                  <Style BackColor="#fce4d6" />
+                  <PrettyName>Total Billings Tracker Information from LM Rule 1</PrettyName>
+                </Rule>
+                <Rule Name="16369066-6dfd-44d4-b259-8fd9822835b8">
+                  <RowRule value="False" />
+                  <HighPrecedence value="False" />
+                  <Field>Rejects sent back to LM</Field>
+                  <Test>Always</Test>
+                  <ApplyTo>Header</ApplyTo>
+                  <SimpleVar />
+                  <SimpleOp>==</SimpleOp>
+                  <SimpleConst>1</SimpleConst>
+                  <Formula>1</Formula>
+                  <Style BackColor="#ddebf7" />
+                  <PrettyName>Rejects sent back to LM Rule 1</PrettyName>
+                </Rule>
+                <Rule Name="4f7f7f34-f09d-4320-9ecc-26149c9e304a">
+                  <RowRule value="False" />
+                  <HighPrecedence value="False" />
+                  <Field>Error/Stuck at Ab Initio for re-run Errored</Field>
+                  <Test>Always</Test>
+                  <ApplyTo>Header</ApplyTo>
+                  <SimpleVar />
+                  <SimpleOp>==</SimpleOp>
+                  <SimpleConst>1</SimpleConst>
+                  <Formula>1</Formula>
+                  <Style BackColor="#ddebf7" />
+                  <PrettyName>Error/Stuck at Ab Initio for re-run Errored Rule 1</PrettyName>
+                </Rule>
+                <Rule Name="1ca2a05b-d0ac-4bdb-a723-4a85b9f6ad83">
+                  <RowRule value="False" />
+                  <HighPrecedence value="False" />
+                  <Field>Total</Field>
+                  <Test>Always</Test>
+                  <ApplyTo>Header</ApplyTo>
+                  <SimpleVar />
+                  <SimpleOp>==</SimpleOp>
+                  <SimpleConst>1</SimpleConst>
+                  <Formula>1</Formula>
+                  <Style BackColor="#ddebf7" />
+                  <PrettyName>Total Rule 1</PrettyName>
+                </Rule>
+                <Rule Name="6fb574f1-2109-4c51-b21b-7f44261fc99d">
+                  <RowRule value="False" />
+                  <HighPrecedence value="False" />
+                  <Field>FI WA Report from RAR</Field>
+                  <Test>Always</Test>
+                  <ApplyTo>Header</ApplyTo>
+                  <SimpleVar />
+                  <SimpleOp>==</SimpleOp>
+                  <SimpleConst>1</SimpleConst>
+                  <Formula>1</Formula>
+                  <Style BackColor="#fff2cc" />
+                  <PrettyName>FI WA Report from RAR Rule 1</PrettyName>
+                </Rule>
+                <Rule Name="cb29f0eb-9b23-40fb-b63e-f89f6e815354">
+                  <RowRule value="False" />
+                  <HighPrecedence value="False" />
+                  <Field><![CDATA[RAR Error Report ]]></Field>
+                  <Test>Always</Test>
+                  <ApplyTo>Header</ApplyTo>
+                  <SimpleVar />
+                  <SimpleOp>==</SimpleOp>
+                  <SimpleConst>1</SimpleConst>
+                  <Formula>1</Formula>
+                  <Style BackColor="#fff2cc" />
+                  <PrettyName>RAR Error Report  Rule 1</PrettyName>
+                </Rule>
+                <Rule Name="46d0bdc9-5d85-4118-b894-5e5928ee2118">
+                  <RowRule value="False" />
+                  <HighPrecedence value="False" />
+                  <Field><![CDATA[RAR error for previous month processed in current month ]]></Field>
+                  <Test>Always</Test>
+                  <ApplyTo>Header</ApplyTo>
+                  <SimpleVar />
+                  <SimpleOp>==</SimpleOp>
+                  <SimpleConst>1</SimpleConst>
+                  <Formula>1</Formula>
+                  <Style BackColor="#e2efda" />
+                  <PrettyName>RAR error for previous month processed in current month  Rule 1</PrettyName>
+                </Rule>
+                <Rule Name="8d1e5ff5-e874-44cb-8dec-3b1795459f03">
+                  <RowRule value="False" />
+                  <HighPrecedence value="False" />
+                  <Field>RAR error related to files prior period sent in current period</Field>
+                  <Test>Always</Test>
+                  <ApplyTo>Header</ApplyTo>
+                  <SimpleVar />
+                  <SimpleOp>==</SimpleOp>
+                  <SimpleConst>1</SimpleConst>
+                  <Formula>1</Formula>
+                  <Style BackColor="#e2efda" />
+                  <PrettyName>RAR error related to files prior period sent in current period Rule 1</PrettyName>
+                </Rule>
+                <Rule Name="f6d0db53-db8a-4b73-acdf-610447de6068">
+                  <RowRule value="False" />
+                  <HighPrecedence value="False" />
+                  <Field>Last Invoice Functionality- IC items (VOLI) which are part of FI Doc WA report-Based input provided VSSI technical Report</Field>
+                  <Test>Always</Test>
+                  <ApplyTo>Header</ApplyTo>
+                  <SimpleVar />
+                  <SimpleOp>==</SimpleOp>
+                  <SimpleConst>1</SimpleConst>
+                  <Formula>1</Formula>
+                  <Style BackColor="#e2efda" />
+                  <PrettyName>Last Invoice Functionality- IC items (VOLI) which are part of FI Doc WA report-Based input provided VSSI technical Report Rule 1</PrettyName>
+                </Rule>
+                <Rule Name="53dc9751-f8f2-49ca-bfe3-578190cf1c11">
+                  <RowRule value="False" />
+                  <HighPrecedence value="False" />
+                  <Field>RAR errored from RAR 04 report</Field>
+                  <Test>Always</Test>
+                  <ApplyTo>Header</ApplyTo>
+                  <SimpleVar />
+                  <SimpleOp>==</SimpleOp>
+                  <SimpleConst>1</SimpleConst>
+                  <Formula>1</Formula>
+                  <Style BackColor="#e2efda" />
+                  <PrettyName>RAR errored from RAR 04 report Rule 1</PrettyName>
+                </Rule>
+                <Rule Name="9e824c73-bcd7-44cd-aa4d-0f5507345459">
+                  <RowRule value="False" />
+                  <HighPrecedence value="False" />
+                  <Field>Unexplained Difference</Field>
+                  <Test>Always</Test>
+                  <ApplyTo>Header</ApplyTo>
+                  <SimpleVar />
+                  <SimpleOp>==</SimpleOp>
+                  <SimpleConst>1</SimpleConst>
+                  <Formula>1</Formula>
+                  <Style BackColor="#ffff00" />
+                  <PrettyName>Unexplained Difference Rule 1</PrettyName>
+                </Rule>
+                <Rule Name="77d90857-20cd-4f9c-ba0c-72946886abc1">
+                  <RowRule value="False" />
+                  <HighPrecedence value="False" />
+                  <Field><![CDATA[Balance in FIWA in technical GL account 69310614 ]]></Field>
+                  <Test>Always</Test>
+                  <ApplyTo>Header</ApplyTo>
+                  <SimpleVar />
+                  <SimpleOp>==</SimpleOp>
+                  <SimpleConst>1</SimpleConst>
+                  <Formula>1</Formula>
+                  <Style BackColor="#e2efda" />
+                  <PrettyName>Balance in FIWA in technical GL account 69310614  Rule 1</PrettyName>
+                </Rule>
+                <Rule Name="aea20bc3-a4de-4be4-9782-763fa65a7988">
+                  <RowRule value="False" />
+                  <HighPrecedence value="False" />
+                  <Field>Ab-initio rejects not captured in ab-initio report</Field>
+                  <Test>Always</Test>
+                  <ApplyTo>Header</ApplyTo>
+                  <SimpleVar />
+                  <SimpleOp>==</SimpleOp>
+                  <SimpleConst>1</SimpleConst>
+                  <Formula>1</Formula>
+                  <Style BackColor="#e2efda" />
+                  <PrettyName>Ab-initio rejects not captured in ab-initio report Rule 1</PrettyName>
+                </Rule>
+                <Rule Name="eb6373f5-0f1f-4d5f-8e10-b0d72990f785">
+                  <RowRule value="False" />
+                  <HighPrecedence value="False" />
+                  <Field>Final Unexplained Difference</Field>
+                  <Test>Always</Test>
+                  <ApplyTo>Header</ApplyTo>
+                  <SimpleVar />
+                  <SimpleOp>==</SimpleOp>
+                  <SimpleConst>1</SimpleConst>
+                  <Formula>1</Formula>
+                  <Style BackColor="#ffff00" />
+                  <PrettyName>Final Unexplained Difference Rule 1</PrettyName>
+                </Rule>
+                <Rule Name="1fb3a35e-adb2-4195-aec7-cf159cc0aa23">
+                  <RowRule value="False" />
+                  <HighPrecedence value="False" />
+                  <Field>Unexplained Difference (%)</Field>
+                  <Test>Always</Test>
+                  <ApplyTo>Header</ApplyTo>
+                  <SimpleVar />
+                  <SimpleOp>==</SimpleOp>
+                  <SimpleConst>1</SimpleConst>
+                  <Formula>1</Formula>
+                  <Style BackColor="#ffff00" />
+                  <PrettyName>Unexplained Difference (%) Rule 1</PrettyName>
+                </Rule>
+                <Rule Name="ca373223-3a66-40c2-8bca-217f24a468b1">
+                  <RowRule value="False" />
+                  <HighPrecedence value="False" />
+                  <Field>Input_#7_Total</Field>
+                  <Test>Always</Test>
+                  <ApplyTo>Header</ApplyTo>
+                  <SimpleVar />
+                  <SimpleOp>==</SimpleOp>
+                  <SimpleConst>1</SimpleConst>
+                  <Formula>1</Formula>
+                  <Style BackColor="#fff2cc" />
+                  <PrettyName>Input_#7_Total Rule 1</PrettyName>
+                </Rule>
+              </StyleRules>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Basic Table</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTablePlugin" />
+        </Node>
+        <Node ToolID="153">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="2094" y="1326" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="True" />
+              <OutputOrder>
+                <Connection>#1</Connection>
+              </OutputOrder>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="154">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2262" y="1278" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\maxim\AppData\Local\Temp\Engine_7360_7db19c6205b44c8d926fa3b26415bf71_\Engine_22200_5f539b8f434c41b69a9f45be7142cb90_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="160">
+          <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+            <Position x="2334" y="1230" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFileType />
+              <OutputFile>C:\Users\maxim\Downloads\Usecase_POC\BR1_C34_DE04_Summary_Sept'19  - Copy.xlsx</OutputFile>
+              <BatchMode value="False" />
+              <DataField>Layout</DataField>
+              <Separator>Continuous</Separator>
+              <EmbedDependencies value="False" />
+              <ShowHeader value="False" />
+              <ShowFooter value="False" />
+              <PortraitMode value="False" />
+              <PaperType Width="595" Height="841" Left="36" Right="36" Top="36" Bottom="36" />
+              <DefaultStyles>
+                <Style Name="TextStyle" FontName="Times New Roman" FontSize="14" Justify="Center" ForeColor="#000000" Locale="1033" />
+              </DefaultStyles>
+              <PNGResolution>1</PNGResolution>
+              <PNGLargerAction>squeeze</PNGLargerAction>
+              <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+              <PNGTransparentBG value="False" />
+              <PNGBackColor value="#ffffff" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+        </Node>
+        <Node ToolID="164">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+            <Position x="1998" y="1326" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <JoinByRecPos value="True" />
+              <OutputJoinOnly value="False" />
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Input_#1_Total Billings Tracker Information from LM" selected="True" />
+                    <SelectField field="Input_#2_Rejects sent back to LM" selected="True" />
+                    <SelectField field="Input_#3_Error/Stuck at Ab Initio for re-run Errored" selected="True" />
+                    <SelectField field="Input_#5_Total" selected="True" />
+                    <SelectField field="Input_#6_FI WA Report from RAR" selected="True" />
+                    <SelectField field="Input_#9_RAR Error Report " selected="True" />
+                    <SelectField field="Input_#7_Total" selected="True" rename="Input_#7_Total" />
+                    <SelectField field="Input_#4_Unexplained Difference" selected="True" />
+                    <SelectField field="Input_#10_RAR error for previous month processed in current month " selected="True" />
+                    <SelectField field="Input_#12_RAR error related to files prior period sent in current period" selected="True" />
+                    <SelectField field="Input_#8_Balance in FIWA in technical GL account 69310614 " selected="True" />
+                    <SelectField field="Input_#14_Last Invoice Functionality- IC items (VOLI) which are part of FI Doc WA report-Based input provided VSSI technical Report" selected="True" />
+                    <SelectField field="Input_#15_RAR errored from RAR 04 report" selected="True" />
+                    <SelectField field="Input_#13_Ab-initio rejects not captured in ab-initio report" selected="True" />
+                    <SelectField field="Input_#11_Final Unexplained Difference" selected="True" />
+                    <SelectField field="Input_#16_Unexplained Difference (%)" selected="True" />
+                    <SelectField field="Input_#17_sheetname" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+        </Node>
+        <Node ToolID="171">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="2262" y="1386" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File FileFormat="25" MaxRecords="">C:\Users\maxim\Downloads\Usecase_POC\BR1_C34_DE04_Summary_Sept'19  - Copy.xlsx|||temp_report</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <SkipFieldNames>False</SkipFieldNames>
+                <OutputOption>Overwrite</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>BR1_C34_DE04_Summary_Sept'19  - Copy.xlsx
+Table=temp_report</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="172">
+          <GuiSettings Plugin="PortfolioPluginsGui.ComposerLayout.PortfolioComposerLayout">
+            <Position x="2262" y="1230" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupingMode>PerGroup</GroupingMode>
+              <GroupingFields orderChanged="False">
+                <Field name="sheetname" />
+              </GroupingFields>
+              <Orientation>V</Orientation>
+              <Separator>Breaking</Separator>
+              <Width>100%</Width>
+              <Height />
+              <BorderStyle Enabled="false" Color="#000000" Width="2" />
+              <SeparatorStyle Enabled="false" Color="#000000" Width="1" />
+              <Padding>0</Padding>
+              <LayoutFields orderChanged="False">
+                <Field name="Table" selected="True" Alignment="Center" Width="" />
+              </LayoutFields>
+              <MergeIntoTable value="False" />
+              <SectionNameForGroup>sheetname</SectionNameForGroup>
+              <SectionNameForAllRecords />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Vertical Layout
+Section Breaks
+Each Group Of Records</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerLayoutPlugin" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#17">
+      <Origin ToolID="173" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection name="#14">
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection name="#15">
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection name="#6">
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection name="#9">
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection name="#8">
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection name="#7">
+      <Origin ToolID="84" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="87" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="110" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection name="#10">
+      <Origin ToolID="111" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection name="#12">
+      <Origin ToolID="112" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection name="#13">
+      <Origin ToolID="113" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection name="#11">
+      <Origin ToolID="123" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection name="#16">
+      <Origin ToolID="126" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="129" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="131" Connection="Output" />
+      <Destination ToolID="164" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="92" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="87" Connection="Output" />
+      <Destination ToolID="92" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="124" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="123" Connection="Output" />
+      <Destination ToolID="124" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="True" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="51" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="95" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="101" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="100" Connection="Output" />
+      <Destination ToolID="101" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="97" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="96" Connection="Output" />
+      <Destination ToolID="97" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="100" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="96" Connection="Output" />
+      <Destination ToolID="100" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="109" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="109" Connection="Input" />
+    </Connection>
+    <Connection name="#6">
+      <Origin ToolID="110" Connection="Output" />
+      <Destination ToolID="109" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="111" Connection="Output" />
+      <Destination ToolID="109" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="112" Connection="Output" />
+      <Destination ToolID="109" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="119" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="118" Connection="Output" />
+      <Destination ToolID="119" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="95" Connection="Output" />
+      <Destination ToolID="96" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="82" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="82" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="102" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="101" Connection="Output" />
+      <Destination ToolID="102" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="79" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="129" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="131" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output" />
+      <Destination ToolID="87" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="82" Connection="Output" />
+      <Destination ToolID="84" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="84" Connection="Output" />
+      <Destination ToolID="93" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="92" Connection="Output" />
+      <Destination ToolID="93" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="91" Connection="Output" />
+      <Destination ToolID="110" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="93" Connection="Output" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="97" Connection="Output" />
+      <Destination ToolID="98" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="98" Connection="Output" />
+      <Destination ToolID="111" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="102" Connection="Output" />
+      <Destination ToolID="103" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="103" Connection="Output" />
+      <Destination ToolID="112" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="109" Connection="Output" />
+      <Destination ToolID="118" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="113" Connection="Output" />
+      <Destination ToolID="120" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="119" Connection="Output" />
+      <Destination ToolID="120" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="117" Connection="Output" />
+      <Destination ToolID="123" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="120" Connection="Output" />
+      <Destination ToolID="117" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="122" Connection="Output" />
+      <Destination ToolID="127" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="124" Connection="Output" />
+      <Destination ToolID="122" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="127" Connection="Output" />
+      <Destination ToolID="126" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="150" Connection="Output" />
+      <Destination ToolID="154" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="150" Connection="Output" />
+      <Destination ToolID="172" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="153" Connection="Output" />
+      <Destination ToolID="150" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="153" Connection="Output" />
+      <Destination ToolID="171" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="164" Connection="Output" />
+      <Destination ToolID="153" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="172" Connection="Output" />
+      <Destination ToolID="160" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Usecase_POC</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
